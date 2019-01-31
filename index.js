@@ -11,6 +11,6 @@ function nowServing(x){
   else {
     var newName = x[0];
     x.splice(0,1);
-    return "Currently serving " + x +".";
+    return "Currently serving " + newName +".";
          }
                               }

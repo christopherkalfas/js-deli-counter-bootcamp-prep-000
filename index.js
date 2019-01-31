@@ -1,16 +1,16 @@
-function takeANumber(katzDeli, newName){
-katzDeli.push(newName);
+function takeANumber(katzDeliLine, newName){
+katzDeliLine.push(newName);
   
-return "Welcome, " + newName + ". You are number " + katzDeli.length + " in line.";
+return "Welcome, " + newName + ". You are number " + katzDeliLine.length + " in line.";
 }
 
-function nowServing(katzDeli){
-  if (katzDeli.length === 0){
+function nowServing(katzDeliLine){
+  if (katzDeliLine.length === 0){
   return "There is nobody waiting to be served!"
                      } 
   else {
     var newName = katzDeli[0];
-    katzDeli.splice(0,1);
-    return "Currently serving " + katzDeli +".";
+    katzDeliLine.splice(0,1);
+    return "Currently serving " + katzDeliLine +".";
          }
                               }

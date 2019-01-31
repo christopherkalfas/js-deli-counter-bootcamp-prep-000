@@ -10,7 +10,7 @@ function nowServing(katzDeli){
   } else {
     var newName = katzDeli{[0]
     katzDeli.splice(0,1)
-    return 
+    return ""
   }
   
   

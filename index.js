@@ -5,5 +5,6 @@ return "Welcome, " + newName + ". You are number " + katzDeli.length + " in line
 }
 
 function nowServing(katzDeli){
-  return katzDeli.p
+  return katzDeli 
+  katzDeli.shift()
 }

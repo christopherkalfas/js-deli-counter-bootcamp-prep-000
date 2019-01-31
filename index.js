@@ -26,6 +26,6 @@ else {
     katzDeliLine+= (i + 1) + ". " + x[i] + ", "
   }
   katzDeliLine = katzDeliLine.slice(0, katzDeliLine.length-2)
-  return "The line is currently:" + katzDeliLine
+  return "The line is currently: " + katzDeliLine
 }
 }

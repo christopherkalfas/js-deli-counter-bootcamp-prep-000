@@ -5,10 +5,10 @@ return "Welcome, " + newName + ". You are number " + katzDeli.length + " in line
 }
 
 function nowServing(katzDeli){
-  for (let i= 0; i<10; i++)
+  if (katzDeli === 0)
+  return "There is nobody waiting to be served!";
+  else
   
   
   
-  return katzDeli 
-  katzDeli.shift()
 }

@@ -9,9 +9,8 @@ function nowServing(katzDeli){
   return "There is nobody waiting to be served!"
                      } 
   else {
-    var newName = katzDeli{[0];
+    var newName = katzDeli[0];
     katzDeli.splice(0,1);
     return "Now serving" + katzDeli +".";
          }
                               }
-}

@@ -14,3 +14,12 @@ function nowServing(x){
     return "Currently serving " + newName +".";
          }
                               }
+
+
+function currentLine(){
+  if (katzDeliLine ===0)
+  return "The Line is currently empty."
+}
+else {
+  
+}

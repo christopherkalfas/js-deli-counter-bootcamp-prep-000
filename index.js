@@ -5,7 +5,7 @@ return "Welcome, " + newName + ". You are number " + katzDeli.length + " in line
 }
 
 function nowServing(katzDeli){
-  if (katzDeli === 0){
+  if (katzDeli.length === 0){
   return "There is nobody waiting to be served!"
                      } 
   else {

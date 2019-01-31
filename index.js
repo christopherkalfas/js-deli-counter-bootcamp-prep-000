@@ -22,5 +22,9 @@ function currentLine(x){
   return "The Line is currently empty."
 }
 else {
-  for (var i=0; i< x.length)
+  for (var i=0; i< x.length; i++){
+    katzDeliLine+= (i + 1) + ". " + x[i] + ", "
+  }
+  katzDeliLine = katzDeliline.slice(0, katzDeliline.length-2)
+  return "The line is currently:" + katzDeliLine
 }
